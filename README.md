@@ -1,5 +1,5 @@
-# Augmenting an experience replay buffer with JAX-planner made trajectories for Deep Q-Learning, small-scale proof of concept using pyRDDLGym
-The current small-scale proof of concept uses MountainCar Discrete, which has only one starting state. First, you can populate the replay buffer, and then continue with training.
+# Augmenting an experience replay buffer with JAX-planner made trajectories for DQN - Small-scale proof of concept using pyRDDLGym
+Welcome to a small proof-of-concept for the idea of augmenting an experience replay buffer with "good" trajectories to aid a DQN's exploration. The current proof of concept is built using pyRDDLGym, and only runs on one small domain. Please feel free to check it out!
 
 ## Environment Setup
 IMPORTANT: Make sure you have Python 3.10 installed on your system.
